@@ -1,0 +1,18 @@
+body {
+    background: rgb(21, 38, 38);
+    padding: 5px;
+}
+
+nav {
+    border-bottom: 4px ghostwhite inset;
+    color: ghostwhite;
+    font-size: 200%;
+    
+}
+
+main {
+    border: 4px ghostwhite groove;
+    width: 800px;
+    height: 500px;
+    margin-top: 25px;
+}
