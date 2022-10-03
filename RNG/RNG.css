@@ -45,7 +45,7 @@ main {
     width: fit-content;
     height: fit-content;
     color: ghostwhite;
-    font-size: 110%;
+    font-size: 150%;
     display: flex;
 }
 #between-num1{
@@ -59,7 +59,18 @@ main {
 
 #num-number{
     color: ghostwhite;
-    font-size: 110%;
+    font-size: 150%;
+    
+}
+#num-number-V{
+    width: 100px;
+    height: fit-content;
+}
+#num{
+    border-top: 1px ghostwhite ridge;
+    color: ghostwhite;
+    font-size: 2500%;
+    text-align: center;
 }
 
 #side-bar {
