@@ -1,0 +1,28 @@
+body {
+    background: rgb(5, 0, 10);
+}
+
+#sun {
+    background: gold;
+    box-shadow: 0px 0px 20px 15px gold;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 800px;
+    top: 200px;
+
+}
+
+#planet {
+    background-image: repeating-linear-gradient(rgb(1, 40, 170));
+    background-color: rgb(84, 15, 15);
+    box-shadow: 10px -10px 50px 20px black inset, -10px 10px 20px 1px white inset;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+
+}
