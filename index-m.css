@@ -1,0 +1,16 @@
+body {
+    background: linear-gradient(gray,rgb(170, 64, 35),rgb(69, 15, 0));
+}
+
+nav{
+    background: brown;
+    width: 1000px;
+    height: 75px;
+
+}
+
+main{
+    background: black;
+    width: 1000px;
+    height: 500px;
+}
