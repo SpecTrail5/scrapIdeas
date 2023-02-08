@@ -1,0 +1,201 @@
+body {
+    background: darkslategrey;
+
+}
+
+#board {
+    background: black;
+    box-shadow: 0px 0px 10px ghostwhite inset;
+    border-radius: 1%;
+    width: 1500px;
+    height: 850px;
+    position: relative;
+}
+
+#playerHp {
+    background: crimson;
+    box-shadow: 0px 0px 20px crimson;
+    text-shadow: 0px 0px 20px ghostwhite;
+    width: 200px;
+    height: 50px;
+    color: ghostwhite;
+    font-size: 300%;
+    transform: skewX(-10deg);
+    position: absolute;
+    left: 15px;
+    top: 10px;
+}
+
+#bcd {
+    background: rgb(182, 99, 16);
+    box-shadow: 0px 0px 20px rgb(182, 99, 16);
+    text-shadow: 0px 0px 10px rgb(228, 150, 14);
+    transform: skewX(-10deg);
+    width: fit-content;
+    height: 50px;
+    font-size: 300%;
+    position: absolute;
+    left: 15px;
+    top: 530px;
+}
+
+#dcd {
+    background: rgb(16, 77, 182);
+    box-shadow: 0px 0px 20px rgb(16, 77, 182);
+    text-shadow: 0px 0px 10px rgb(16, 163, 182);
+    width: fit-content;
+    height: 50px;
+    font-size: 300%;
+    transform: skewX(-10deg);
+    position: absolute;
+    left: 15px;
+    top: 590px;
+}
+
+#Hcd {
+    background: rgb(12, 173, 0);
+    box-shadow: 0px 0px 20px rgb(12, 173, 0);
+    text-shadow: 0px 0px 10px rgb(70, 223, 50);
+    width: fit-content;
+    height: 50px;
+    font-size: 300%;
+    transform: skewX(10deg);
+    position: absolute;
+    left: 810px;
+    top: 530px;
+}
+
+#ucd {
+    background: rgb(16, 182, 163);
+    box-shadow: 0px 0px 20px rgb(16, 182, 163);
+    text-shadow: 0px 0px 10px rgb(101, 173, 164);
+    width: fit-content;
+    height: 50px;
+    font-size: 300%;
+    transform: skewX(10deg);
+    position: absolute;
+    left: 810px;
+    top: 590px;
+}
+
+#powerUp {
+    background: rgb(255, 213, 0);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 580px;
+}
+
+#jumper {
+    background: rgb(20, 220, 203);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255) inset, 0px 0px 20px rgb(255, 255, 255);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 10px;
+    top: 390px;
+}
+
+#blast {
+    background: rgba(182, 113, 16, 0.523);
+    background-image: url(boss-images/blast.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 0px 20px rgba(182, 113, 16, 0.66) inset, 0px 0px 50px rgba(182, 113, 16, 0.66);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    top: 390px;
+}
+
+#block {
+    background: rgba(2, 175, 210, 0.2);
+    background-image: url(boss-images/shield.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 0px 20px rgba(2, 175, 210, 0.5) inset, 0px 0px 50px rgba(2, 175, 210, 0.5);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    top: 390px;
+}
+
+#heal {
+    background: rgba(17, 200, 0, 0.109);
+    background-image: url(boss-images/heal.png);
+    background-position: center;
+    background-size: 350px;
+    box-shadow: 0px 0px 20px rgba(17, 200, 0, 0.545) inset, 0px 0px 50px rgba(17, 200, 0, 0.593);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    top: 390px;
+}
+
+#ult {
+    background: rgba(16, 182, 163, 0.083);
+    background-image: url(boss-images/ult.png);
+    background-position: center;
+    background-size: 150px;
+    box-shadow: 0px 0px 50px rgba(16, 182, 163, 0.644) inset, 0px 0px 50px rgba(16, 182, 163, 0.674);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    top: 390px;
+}
+
+
+#boss {
+    background: darkblue;
+    box-shadow: 0px 0px 20px crimson, 0px 0px 20px crimson inset;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 900px;
+    top: 360;
+    color: azure;
+    font-size: 250%;
+    text-align: center;
+}
+
+#dieWin {
+    background: black;
+    box-shadow: 0px 0px 50px ghostwhite inset;
+    width: fit-content;
+    height: fit-content;
+    color: crimson;
+    font-size: 500%;
+    position: absolute;
+    top: 250px;
+    left: 300px;
+
+}
+
+#shade {
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 1000px black inset;
+    width: 1000px;
+    height: 650px;
+    position: absolute;
+}
+
+#Info {
+    background: ivory;
+    box-shadow: 0px 0px 10px black inset;
+    padding: 10px;
+    border-radius: 5%;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 10px;
+    left: 1050px;
+}
