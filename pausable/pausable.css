@@ -1,0 +1,65 @@
+body {
+    background: darkslategrey;
+
+}
+
+#board {
+    background: black;
+    box-shadow: 0px 0px 10px ghostwhite inset;
+    border-radius: 1%;
+    width: 1500px;
+    height: 850px;
+    position: relative;
+}
+
+
+
+
+
+#player {
+    background: rgb(90, 20, 220);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255) inset, 0px 0px 20px rgb(255, 255, 255);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 10px;
+    top: 390px;
+}
+
+
+
+
+#boss {
+    background: darkblue;
+    box-shadow: 0px 0px 20px crimson, 0px 0px 20px crimson inset;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 900px;
+    top: 360;
+    color: azure;
+    font-size: 250%;
+    text-align: center;
+}
+
+
+
+#shade {
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 1000px black inset;
+    width: 1000px;
+    height: 650px;
+    position: absolute;
+}
+
+#Info {
+    background: ivory;
+    box-shadow: 0px 0px 10px black inset;
+    padding: 10px;
+    border-radius: 5%;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 10px;
+    left: 1050px;
+}
