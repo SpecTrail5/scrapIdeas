@@ -1,16 +1,144 @@
 body {
-    background: linear-gradient(gray,rgb(170, 64, 35),rgb(69, 15, 0));
+    background: linear-gradient(rgb(100, 89, 78),  rgb(60, 32, 15), rgb(43, 11, 11));
+    padding-left: 200px;
+    
 }
 
-nav{
-    background: brown;
+nav {
+    background: linear-gradient(100deg,rgb(46, 4, 4), rgb(76, 26, 12), rgb(82, 45, 20)) ;
+    border: 5px ridge rgb(46, 4, 4);
+    border-bottom: 5px ridge ghostwhite;
+    box-shadow: 0px 10px 10px black;
     width: 1000px;
-    height: 75px;
+    height: 100px;
+    color: ghostwhite;
+    display: flex;
+    align-items: center;
+    rotate: 2deg;
+    margin-bottom: 5px;
+    animation: breakNav 0.5s 1;
+
 
 }
 
-main{
-    background: black;
+@keyframes breakNav {
+    from {
+        rotate: 0deg;
+    }
+
+    to {
+        rotate: 2deg;
+    }
+}
+
+#site-name {
+    font-size: 200%;
+    text-shadow: 0px 0px 20px ghostwhite;
+    animation: flicker 1s 3;
+}
+
+@keyframes flicker {
+    from {
+        text-shadow: 0px 0px 20px ghostwhite;
+    }
+
+    to {
+        text-shadow: 0px 0px 0px ghostwhite;
+    }
+
+}
+
+#navUl {
+
+    font-size: 110%;
+    color: ghostwhite;
+    position: absolute;
+    left: 875px;
+    animation: slide 3s 1;
+}
+
+@keyframes slide {
+    from {
+        left: 300px;
+    }
+
+    to {
+        left: 875px;
+    }
+
+}
+
+.nav-li {
+    color: ghostwhite;
+    display: inline-block;
+}
+
+#siteLogo {
+    width: 100px;
+    height: 100px;
+
+}
+
+main {
+    background: url(images/black-pattern-circuit.png) ;
+    background-color: black;
+    background-position: center;
+    border: 5px ridge rgb(100, 100, 100);
     width: 1000px;
     height: 500px;
+    display: inline-flex;
+}
+
+#info-bar {
+    background: linear-gradient( slategray, darkslategray) ;
+    border-right: 5px ridge rgb(255, 255, 255);
+    width: 200px;
+    height: 500px;
+    position: relative;
+    top: 5px;
+    left: 50px;
+    rotate: 15deg;
+    animation: lean 1s 1;
+}
+
+@keyframes lean {
+    from {
+        top: -20px;
+        left: 0px;
+        rotate: 0deg;
+    }
+
+    to {
+        top: 5px;
+        left: 50px;
+        rotate: 15deg;
+    }
+
+}
+
+#content {
+    background: linear-gradient( rgba(28, 55, 55, 0.965), rgb(0,0,0, 0.965)) ;
+    padding: 50px;
+    width: 800px;
+    position: relative;
+    left: 110px;
+    top: 5px;
+    animation: push 1s 1;
+}
+
+@keyframes push {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 110px;
+    }
+}
+
+.con-links {
+    padding-right: 10px;
+    width: max-content;
+    height: min-content;
+    background-color: darkgray;
 }
