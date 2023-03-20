@@ -15,7 +15,6 @@ body {
 }
 
 #planet {
-    background-image: repeating-linear-gradient(rgb(1, 40, 170));
     background-color: rgb(84, 15, 15);
     box-shadow: 10px -10px 50px 20px black inset, -10px 10px 20px 1px white inset;
     border-radius: 50%;
