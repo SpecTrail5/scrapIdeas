@@ -5,7 +5,8 @@ body {
 }
 
 nav {
-    background: linear-gradient(100deg,rgb(46, 4, 4), rgb(76, 26, 12), rgb(82, 45, 20)) ;
+    background: url(images/mottled-rust.png), linear-gradient(100deg,rgb(46, 4, 4), rgb(76, 26, 12), rgb(82, 45, 20)) ;
+    background-blend-mode: color;
     border: 5px ridge rgb(46, 4, 4);
     border-bottom: 5px ridge ghostwhite;
     box-shadow: 0px 10px 10px black;
@@ -92,7 +93,8 @@ main {
 }
 
 #info-bar {
-    background: linear-gradient( slategray, darkslategray) ;
+    background:url(images/mottled-rust.png), linear-gradient( slategray, darkslategray) ;
+    background-blend-mode: soft-light;
     border-right: 5px ridge rgb(255, 255, 255);
     width: 200px;
     height: 500px;
@@ -119,7 +121,8 @@ main {
 }
 
 #content {
-    background: linear-gradient( rgba(28, 55, 55, 0.965), rgb(0,0,0, 0.965)) ;
+    background: url(images/mottled-rust.png), linear-gradient( rgba(28, 55, 55, 0.965), rgb(0,0,0, 0.965)) ;
+    background-blend-mode: soft-light;
     padding: 50px;
     width: 800px;
     position: relative;
