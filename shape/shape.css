@@ -1,0 +1,8 @@
+#tri{
+    width: 0px;
+    height: 500px;
+    border-bottom: 100px ridge darkred;
+    border-left: 50px ridge transparent;
+    border-right: 50px ridge transparent;
+    border-top: 0px ridge transparent;
+}

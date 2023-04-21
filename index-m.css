@@ -87,6 +87,8 @@ main {
     width: 1000px;
     height: 500px;
     display: inline-flex;
+    overflow: hidden;
+
 }
 
 #info-bar {
